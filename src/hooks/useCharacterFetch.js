@@ -26,7 +26,5 @@ export const useFetch = ({ pagina, nombre, estado }) => {
         getData();
     }, [pagina, nombre, estado])
 
-    
-
     return { data, loading, error };
 }
